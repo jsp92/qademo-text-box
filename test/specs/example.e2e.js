@@ -13,6 +13,7 @@ describe("Demo QA Text Box", () => {
     await $("#submit").click();
     await browser.pause(3000);
   });
+
   it("Using faker for the form", async () => {
     await $("#userName").setValue(faker.internet.userName());
     await browser.pause(3000);
